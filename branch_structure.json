@@ -1,0 +1,21 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-1236-codeowners",
+    "fix/issues-1330-1329-1328-1327",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-1236-codeowners": "main",
+    "fix/issues-1330-1329-1328-1327": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-1236-codeowners",
+    "fix/issues-1330-1329-1328-1327",
+    "origin"
+  ]
+}
